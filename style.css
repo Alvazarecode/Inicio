@@ -21,4 +21,21 @@ nav a {
     text-decoration: none;
     color: #696969;
     margin: 0 3rem;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+nav a:hover{
+    background-color: #000;
+}
+
+.slider {
+    background-image: url(img/Prueba.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
